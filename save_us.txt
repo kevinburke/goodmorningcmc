@@ -1,0 +1,58 @@
+Hi there,
+     I used to run Good Morning CMC but I graduated last year. I'm writing
+because this project is dying and I'd like to offer you the opportunity to save
+it.
+
+This was a labor of love. It takes a lot of work to write the email every day.
+That said, doing this every day is the main reason I have an engineering job at
+an internet startup right now, more so than CS classes. It's likely you will
+learn a lot from maintaining this project as well.
+
+I am a pretty bad programmer but I was a *really* bad programmer when I wrote
+most of this. So there's a bunch of stuff that you could work on to make it
+better, like actually doing marketing and advertising - I made about $300 in
+one semester without trying hard to advertise to people and I'm sure you could
+double or triple that by getting recruiters to advertise, for example. If you'd
+like more examples of ways to contribute, shoot me an email.
+
+I fully expect this project will die. That said, if you're interested in taking
+it on, I promise to do the following:
+
+- I will do my best to help you get an internship/full time job at a tech
+company in Silicon Valley, including reviewing your resume, discussing roles
+that would be a good fit, listing companies that would be a good fit for you,
+and making introductions at those companies.
+
+- I will help you learn how to update the website, schedule the emails
+every night, etc.
+
+- I will advise you on any other tech or school-related issues you are working
+on.
+
+- You will get unlimited free Twilio credit for life :)
+
+If you are mildly interested shoot me an email; if you are really interested,
+copy the source code on Github (https://github.com/kevinburke/goodmorningcmc)
+and submit a pull request (http://help.github.com/send-pull-requests/), or
+write the email for Friday/Monday and ask what else you need to do to send it.
+
+Make useful things and improve yourself,
+Kevin
+
+==============================================
+*|LIST:DESCRIPTION|*
+
+Unsubscribe *|EMAIL|* from this list:
+*|UNSUB|*
+
+Our mailing address is:
+*|LIST:ADDRESS|*
+
+Our telephone:
+*|LIST:PHONE|*
+
+Forward this email to a friend:
+*|FORWARD|*
+
+Update your profile:
+*|UPDATE_PROFILE|*
