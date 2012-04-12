@@ -1,0 +1,11 @@
+<h3>Flex Hours</h3>
+
+                <b>Hub Grill:</b> 11AM - 3PM, 7PM - 10:30PM<br /><br />
+
+                <b>The Coop (Pomona):</b> 9AM - Midnight<br /><br />
+
+                <b>Jay's Place (Mudd Hole):</b> 7PM - 1AM<br /><br />
+
+                <b>The Grove House (Pitzer):</b> 9AM - 4PM, 7PM - 11PM<br /><br />
+
+                <b>Motley (Scripps):</b> 8AM - Midnight<br /><br />

@@ -1,0 +1,56 @@
+================   TODO (in no particular order)     =====================
+
+add automatic testing so you can tell when the website is down - this is
+easy, in python just ping the frontpage with urllib2, if the status code
+is not 200, then send an email. see my blog post
+
+use the readline() library to read from, edit stdin without errors when
+typing the email subject line
+
+add dining hall parsing to website + email - see 5cmenus
+
+add link:visited color to CSS styling
+
+improve archives format
+set up cron for dining halls, have current menu on the website all the time
+
+add explanation about why you should subscribe even though there are
+chirps to pomona website. Stack overflow has nice overlays when you try to
+do things like comment when you are not logged in or upvote your own
+articles.
+
+implement automatic database backups with a cronjob - for snack text subscribers
+
+add "add" page to site - to email me. The idea is that people still
+email me to add their events when they should be using the site. Just
+make a blank page containing only a form.
+
+submit receipts to ascmc
+
+make individual events like-able on Facebook (also add them to GCal,
+make them searchable via API)
+
+add 5C API - can poll our site for dining hall hours, menus, daily
+events, current Cmont temperature, across everything. this would be
+really useful. Plus API's are where the industry is going
+
+move all dependencies (Flask, Flask-Mail etc) inside of the repository,
+and track them in Mercurial
+better way to track app.cfg file. The problem is that we don't want to
+track this in Bitbucket, because it contains private info that people
+could use to send messages to our mailing list, send text messages to
+our subscriber base, etc, and that's not good. I asked a question on
+Stackoverflow about this but there aren't really good answers.
+
+ana + orlan syntax highlighting for YAML
+
+==============     COMPLETED       ===============
+
+add unicode support to email creation
+add warning if running snack for next day
+redirect www subdomain to naked domain
+add hyperlink color to custom formatting
+background slight drop shadow - see optimizely
+lighter color for background
+compile vim with python on server
+

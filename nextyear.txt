@@ -1,0 +1,33 @@
+Subject: Next year
+
+Hey everyone,
+As you might know I'm graduating in May and as many people have
+mentioned, it would be a shame if Good Morning CMC stopped at the end
+of the year. I'm looking for someone, possibly two people to run Good
+Morning CMC next year. In terms of time commitment, it's about 45
+minutes a night to put the email together, plus however much time you
+want to spend building new features.
+
+You should be interested in running Good Morning CMC if:
+
+- You want to learn how to build websites, and build cool things that your friends can use
+- You want to have a kickass project
+- You want to get paid (I'm talking to several different people about a
+more permanent source of funding than ads)
+
+You're probably a good fit if:
+- You read Good Morning CMC
+- You're interested in working in the software industry
+- You like reading for fun.
+- You do at least one interesting thing outside of class
+
+I'm not that interested in reading cover letters or resumes,
+so you should probably just <a href="kev@inburke.com">email
+me</a> if you're interested. Bonus points if you <a
+href="https://bitbucket.org/kevinburke/goodmorningcmc/src/431160d06cdd/install.txt">
+fork and submit a pull request</a> (hint: there are
+instructions in the install.txt file). If you have any questions, please
+find me around campus or send me an email. Hope to hear from you soon.
+
+Best,
+Kevin

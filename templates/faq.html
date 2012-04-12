@@ -1,0 +1,72 @@
+{% extends "layout.html" %}
+{% block title %}Frequently Asked Questions - {{ site['title'] }}{% endblock %}
+{% block content %}
+<div class="faq">
+
+                <h1>Frequently Asked Questions</h1>
+                
+                <b>Who currently runs {{ site['title'] }}</b><br /><br />
+
+                The current editors are Orlan Davies '13 and Ana Kakkar '14. You can <a href="http://bitbucket.org/kevinburke/goodmorningcmc">check out the source code from Bitbucket</a>; it contains full instructions on how to get started committing code and contributing to the project.<br><br>
+
+                <b>How can I get my event in {{ site['title'] }}?</b><br><br>
+
+                I find events by searching my email for words like
+"wednesday" or "january 1," so use the full day of week and date to
+describe your event in the Chirps or Informs. I also check the 5C Master
+Calendar, Chirps, and CMC Inform for events. If you're worried about
+your event not being found, feel free to add it by clicking "Add Your
+Event" above.<br><Br>
+
+                <b>Why did you create {{ site['title'] }}?</b><br><BR>
+
+I started on the first day of school. I created it for three reasons:<br><BR>
+
+<ul>
+<li>the school's website is hard to navigate and there's no place on it that aggregates all of this information. There are two ways to find out about new events on campus, the Informs and the Master Calendar, neither of which are used by students, so I thought I'd read them and summarize so they don't have to.</li>
+<li>I'm the news editor for the CMC Forum and I thought this would be a great way to educate CMCers about 'the news.' The other Forum staffers disagreed so I did it myself.</li>
+<li>I was planning on selling ads inside the newsletter but that plan's sort of fizzled. I also wanted to see if there was enough interest to consider expanding to other colleges. I am looking at other options right now.</li>
+</ul><br><br>
+
+<b>What are the advantages (disadvantages) vis-a-vis finding this information on CMC's other sources of news (the website, the calendar, the Informs, etc)?</b><br><Br>
+
+You have to visit CMC's site to get the information (or subscribe via RSS), and it also only publishes one or two stories a day. Like I said above, the other info about events and dining halls is located in twenty different places on CMC and the 5C's website. Many people open up my email again in the afternoon just to click through to the dining hall menus or the campus map; it's way easier to check it there than to navigate the school's website.<br><BR>
+
+<img src="{{ url_for('static', filename='coffee.jpg') }}" style="float:right; padding:15px 0 15px 15px;" />
+
+<b>      How do you gather the info for the site and when do you work on it?</b><br><BR>
+
+I subscribe to a number of different feeds (Claremont Courier, CMC News, Claremont Currents, Forum, Charles Johnson etc) using RSS and repost news that I think is interesting. I also read through the Master Calendar, the Informs, and my email archives to find out all the stuff that's happening on campus today. In terms of the random links/news, I read a ton and generally repost stuff that I think is interesting; you can find a summary of stuff I read every day <a href="http://kburke.org/kevin/where-do-i-find-coolinteresting-links/">here</a>. I put it together at about 10PM every night and schedule it to be sent out at 7:15AM. Usually it takes a half an hour to an hour or so.<br><BR>
+
+<b>      Do you have other students that help you cull information for the site?</b><br><BR>
+
+Not yet but hopefully soon. Some people send me info to make sure they get on the events list, and some people also email me to make suggestions or corrections, which I usually run the next day. When I get some more time I think I'm going to expand to the other 5C's. There are already about 10 Scripps, 5 Pitzer and 5 Pomona students signed up.<br><BR>
+
+<b>      How do you choose what information to include or omit?</b><br><BR>
+
+All one-time events at the 5C's that have made it into my email, or on the Inform or the Master Calendar, get on the list; I use some discretion with recurring events, for example one problem with the Master Calendar is that the museums add an "event" for every day of an artist's exhibit, which might go on for a month or so. If a club's got a really cool event I'll put it on there, like On The Loose before Fall Break. In terms of the random news stories, anything I think other students would find is interesting is fair game. I like publishing articles or stories that correct common misperceptions about college, in terms of other people's sexual activity and drinking behavior.<br><BR>
+
+
+<b>      Is there a distinct format that you always follow regarding longevity. I've noticed there are a lot of bullet points and links.</b><br><BR>
+
+I try to add all the events that I find. Thursdays are usually the busiest days of the week for events and talks. Some days there just isn't that much stuff going on on campus, or I can't find it in my email. <br><BR>
+
+<b>      Was there an approval process for the site and if so, what was that like?</b><br><BR>
+
+There wasn't an approval process; it's hosted on my own servers. I tried really hard actually to persuade someone with access to a school-wide distribution list to link to my newsletter from it, but I couldn't get anyone to do that. I also tried advertising in the Inform, but the Dean of Students office rejected my submission. The newsletter's spread because people have shared/liked it on Facebook, also last week Seth Winterroth '12 linked to it in the Party Inform. I was flattered because I'd never asked Seth to do that, he read about it on Facebook and thought it was cool.<br><BR>
+
+<b>      What kind of feedback - if any - have you received thus far?</b><br><BR>
+
+We've gone from 5 of my WOA freshmen at the beginning of the year to over 350 students currently signed up, which is just over 1 in 4 students at CMC, and only two students have unsubscribed, all in two months. The feedback I hear from students is remarkably positive; as I mentioned above the list has grown because people really enjoy getting the emails and share the site with their friends. People start conversations based on stuff they read in the email and want to talk about with me, so that's cool too. Freshmen have found it especially useful as they're still trying to find their feet at college.<br><BR>
+
+<b>9.      What will happen to the site after you graduate?</b><br><BR>
+
+I'm considering a number of different plans for expansion at the moment. I hope that when I graduate I can find someone who's willing to keep it up next year. I don't plan on personally maintaining the site after I graduate.<br><BR>
+
+<b>10. Who are you, and where can I learn more?</b><br><BR>
+
+My name's Kevin Burke and I'm a senior at Claremont McKenna College. Go <a href="http://kburke.org/">here</a> or get in touch with me <a href="mailto:kev@inburke.com">here</a>.<br><br>
+
+</div>
+{% endblock %}
+

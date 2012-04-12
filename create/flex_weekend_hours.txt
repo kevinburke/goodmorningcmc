@@ -1,0 +1,37 @@
+<h3>Flex Hours</h3>
+
+    <b>Friday</b><br><br>
+
+    <b>Hub Grill (CMC):</b> 11am - 3pm, 7pm - 2am<br><br>
+
+    <b>The Coop (Pomona):</b> 9am - 1:30am<br><br>
+
+    <b>Jay's Place (Mudd Hole):</b> 8pm - 2am<br><br>
+
+    <b>Grove House (Pitzer):</b> 9am - 4pm<br><br>
+
+    <b>Motley (Scripps):</b> 8am - 5pm<br><br>
+
+    <b>Saturday</b><br><br>
+
+    <b>Hub Grill (CMC):</b> 8pm - 2am<br><br>
+
+    <b>The Coop (Pomona):</b> Noon - 1:30am<br><br>
+
+    <b>Jay's Place (Mudd Hole):</b> 8pm - 2am<br><br>
+
+    <b>Grove House (Pitzer):</b> Noon - 3pm<br><br>
+
+    <b>Motley (Scripps):</b> 11am - 5pm<br><br>
+
+    <b>Sunday</b><br><br>
+
+    <b>Hub Grill (CMC):</b> 8pm - 2am<br><br>
+
+    <b>The Coop (Pomona):</b> 9am - Midnight<br><br>
+
+    <b>Jay's Place (Mudd Hole):</b> 7pm - 1am<br><br>
+
+    <b>Grove House (Pitzer):</b> 7pm - 11pm<br><br>
+
+    <b>Motley (Scripps):</b> 11am - 5pm, 8pm - Midnight<br><br>

@@ -1,0 +1,146 @@
+cmc:
+    name: "cmc"
+    base_url: "goodmorningcmc.com"
+    title: &TITLE "Good Morning CMC"
+    tagline: "The Useful E-Newsletter for Claremont McKenna Students"
+    description: "Good Morning CMC is a daily email that helps you keep \
+    your finger on the campus pulse. Over 500 CMCers subscribe. Sign up today."
+    calltoaction_title: "Over 500 CMCers start their day with Good Morning CMC."
+    calltoaction_text: "Designed by a student to be useful for students.\
+    Get a daily email with campus events, sports updates, relevant campus \
+    and world news, the weather, and what's in the dining halls. You should \
+    subscribe today."
+    fb_src: "http://www.facebook.com/plugins/like.php?href=http\
+    %3A%2F%2Fgoodmorningcmc.com&amp;layout=standard&amp;show_faces=true\
+    &amp;width=450&amp;action=like&amp;font=arial&amp;colorscheme=light\
+    &amp;height=80"
+
+    facebooklink: "http://www.facebook.com/pages/Good-Morning-CMC/113073532088790"
+    twitter: "http://twitter.com/goodmorningcmc"
+    contact: "editor@goodmorningcmc.com"
+
+    #font settings
+    font_name: "MachineScriptRegular"
+    font_base: &FONT '../static/font/machinescript-webfont'
+    font_file_name: ../static/font/machinescript-webfont.eot
+    font_woff_name: ../static/font/machinescript-webfont.woff
+    font_ttf_name: ../static/font/machinescript-webfont.ttf
+    font_svg_name: ../static/font/machinescript-webfont.svg#webfont9l6uWoHA
+
+    bigimage: &BIGIMAGE "plate.jpg"
+    bigimagealt: "Good Morning CMC spelled out with sausage and eggs"
+    bigimagetitle: "Photo credit: Caroline Nyce '13"
+    button_url: "cmc/button.png"
+
+    titlefont: "MachineScript"
+    litecolor: "#a31a2f"
+    color: "#740e1c"
+    hover_color: "#ffcc00"
+
+    #mailchimp subscribe settings
+    formaction: "http://kburke.us1.list-manage.com/subscribe/\
+    post?u=2c913f03099b6ba1915c7f8d9&id=2f72f64ad3"
+    post_json: "http://kburke.us1.list-manage.com/subscribe/\
+    post-json?u=2c913f03099b6ba1915c7f8d9&id=2f72f64ad3&c=?"
+
+    #facebook settings
+    og_type: "website"
+    og_image: *BIGIMAGE
+    og_site_name: *TITLE
+
+    #analytics
+    analytics: 'UA-566397-4'
+pomona:
+    name: "pomona"
+    base_url: "goodmorningpomona.com"
+    title: "Good Morning Pomona"
+    tagline: "The Useful E-Newsletter for Pomona Students"
+    description: "A curated list of daily events, news, sports scores, and \
+    dining hall menus at Pomona, sent in a daily email. Subscribe today."
+    calltoaction_title: "The email that over 350 Pomona students read to \
+    start their day."
+    calltoaction_text: "Designed by a student to be useful for students. Get a \
+    daily email with campus events, sports updates, relevant campus and world \
+    news, the weather, and what's in the dining halls. You should \
+    subscribe today."
+    fb_src: "http://www.facebook.com/plugins/like.php?\
+    href=http%3A%2F%2Fgoodmorningpomona.com&layout=standard&show_faces=true\
+    &width=450&action=like&font=arial&colorscheme=light&height=80"
+    facebooklink: "http://www.facebook.com/pages/Good-Morning-Pomona/\
+    137646029627994"
+    twitter: "http://twitter.com/goodmornpomona"
+    contact: "editor@goodmorningpomona.com"
+
+    bigimage: "pomona/turrell.jpg"
+    bigimagealt: "Turrell Fountain at Pomona"
+    bigimagetitle: "Photo credit: Jenny Trucano, Pomona alum, on Flickr\
+ at http://www.flickr.com/people/jtrucano/"
+    button_url: "pomona/button.png"
+
+    #font settings
+    font_name: 'PalatinoLTStdLight'
+    font_base: '../static/font/palatinoltstd-light-webfont'
+    font_file_name: font_base + ".eot"
+    font_woff_name: font_base + ".woff"
+    font_ttf_name: font_base + ".ttf"
+    font_svg_name: font_base + ".svg#webfontMe7hUhsS"
+
+    color: "#1177bb"
+    litecolor: "#22aaee"
+    hover_color: "#ff5555"
+
+    #mailchimp settings
+    formaction: "http://goodmorningcmc.us1.list-manage.com/subscribe/\
+post?u=2c913f03099b6ba1915c7f8d9&id=472e3695b1"
+    post_json: "http://goodmorningcmc.us1.list-manage.com/subscribe/\
+post-json?u=2c913f03099b6ba1915c7f8d9&id=472e3695b1&c=?"
+
+    #analytics
+    analytics: 'UA-566397-5'
+
+scripps:
+    name: "scripps"
+    base_url: "goodmorningscripps.com"
+    title: "Good Morning Scripps"
+    tagline: "The Useful E-Newsletter for Scripps Students"
+    description: "A curated list of the best events and news, plus \
+dining hall menus and sports scores. Subscribe today."
+    calltoaction_title: "All the information you need to start your day."
+    calltoaction_text: "Designed by a student to be useful for students. Get \
+    a daily email with campus events, sports updates, relevant campus and world\
+    news, the weather, and what's in the dining halls. You should \
+    subscribe today."
+    fb_src: "http://www.facebook.com/plugins/like.php?\
+    href=http%3A%2F%2Fgoodmorningscripps.com&layout=standard&show_faces=true\
+    &width=450&action=like&font=arial&colorscheme=light&height=80"
+    facebooklink: "http://www.facebook.com/sharer.php?\
+    u=http://goodmorningscripps.com&t=Good%20Morning%20Scripps"
+    twitter: "twitter.com/goodmorningcmc"
+    contact: "editor@goodmorningscripps.com"
+
+    bigimage: "scripps/scripps.jpg"
+    bigimagealt: "Building at Scripps"
+    bigimagetitle: "Photo credit: Cliff Hutson, on Flickr \
+    at http://www.flickr.com/photos/themarmot/"
+    button_url: "scripps/button.png"
+
+    #font settings
+    font_name: 'Bembo'
+    font_base: '../static/font/palatinoltstd-light-webfont'
+    font_file_name: ../static/font/palatinoltstd-light-webfont.eot
+    font_woff_name: ../static/font/palatinoltstd-light-webfont.woff
+    font_ttf_name: ../static/font/palatinoltstd-light-webfont.ttf
+    font_svg_name: ../static/font/palatinoltstd-light-webfont.svg#webfontMe7hUhsS
+
+    color: "#00664f"
+    litecolor: "#009969"
+    hover_color: "#ffcc00"
+
+    #mailchimp settings - need to change
+    formaction: "http://goodmorningcmc.us1.list-manage.com/subscribe/post?\
+u=2c913f03099b6ba1915c7f8d9&amp;id=906a4c0ae2"
+    post_json: "http://goodmorningcmc.us1.list-manage.com/subscribe/post-json?\
+u=2c913f03099b6ba1915c7f8d9&id=906a4c0ae2&c=?"
+
+    #analytics
+    analytics: 'UA-566397-6'

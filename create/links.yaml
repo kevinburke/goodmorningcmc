@@ -1,0 +1,17 @@
+# usually 4 links, and the weather.
+# links have href and text. "after" is also valid.
+links:
+
+- href: http://www.cnn.com/2011/WORLD/africa/05/12/libya.war/index.html?hpt=T1
+  text: "Rockets Strike Gadhafi's Compound"
+
+- href: http://slatest.slate.com/posts/2011/05/10/microsoft_skype_deal_software_giant_buys_skype_for_8_5_billion_.html
+  text: "Mircosoft Buys Skype for $8.5 Billion"
+
+- href: http://www.cracked.com/article/17476_7-man-made-substances-that-laugh-in-face-physics/
+  text: "7 Man-Made Substances that Laugh in the Face of Physics"
+  
+weather:
+    href: http://www.swoopthat.com/sell-textbooks/ 
+    chance: 33
+    text: "That Huntley Bookstore is ripping you off!"

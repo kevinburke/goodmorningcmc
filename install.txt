@@ -1,0 +1,76 @@
+# First you're going to need Developer Tools for Mac - there are instructions
+# online - you want to download XCode4 and then install it.
+
+# On a mac you should try to install MacPorts - it lets you install all the
+# tools really easily. http://macports.org and follow the instructions.
+
+# After you've installed Macports, open the Terminal and type this:
+
+$ which -a port
+/opt/local/bin/port # if the 'which' command returns nothing you don't have
+                    # Macports installed or it's not in your path. Try
+                    # typing 'echo $PATH'
+
+# Then install Mercurial (hg). It lets you keep track of different versions of
+# the site. This will take a while as there are a lot of things that have to be
+# installed before Mercurial can run properly.
+$ sudo port install hg
+
+# Install flask. Flask is a microframework used to display the pages on the
+# site.
+$ sudo port install python_select
+
+# This one will take a while.
+$ sudo port install python27
+
+# If this doesn't work, try asking for help on http://stackoverflow.com.
+$ sudo port select python python27
+
+$ sudo port install py27-pip
+
+# This should work, if not try typing `which pip` at the command line
+$ sudo pip-2.7 install flask
+
+#make sure flask is installed for your current version of python, to test,
+#open python and try typing `import flask`. There should be no errors when you
+#do so.
+
+$ python
+Python 2.7.1 (r271:86832, Dec 31 2010, 18:53:13)
+[GCC 4.2.1 (Apple Inc. build 5664)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import flask
+>>> quit()
+
+# get a bitbucket account at bitbucket.org
+# go to http://bitbucket.org/kevinburke/goodmorningcmc and click "fork"
+# clone the good morning cmc repo into folder "goodmorningcmc"
+$ hg clone http://bitbucket.org/your_bitbucket_username/goodmorningcmc goodmorningcmc
+
+# now to add several uncloned files
+# let's say you want the good morning CMC database:
+
+$ cd goodmorningcmc
+$ sh -v switch_db.sh cmc_local
+
+# I have several system passwords saved in a file called app.cfg - this is the
+# only file not tracked by Bitbucket.
+# app.config settings used in run.py - email kevin to get the file
+$ touch app.cfg
+
+# create latest.html - copy any index.html file in "static", or when you run
+# the server, it will complain.
+$ cp -v static/cmc/february/5/index.html templates/latest.html
+
+#finally run the DB
+$ python run.py
+ * Running on http://127.0.0.1:5000/
+ * Restarting with reloader...
+
+# now edit some files and submit a pull request!
+
+$ hg ci -u my_user_name -m "made a bunch of cool changes"
+
+$ hg push http://bitbucket.org/your_bitbucket_username/goodmorningcmc
+
+# then go to bitbucket and click "pull request"

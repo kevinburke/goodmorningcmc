@@ -1,0 +1,80 @@
+{% extends "layout.html" %}
+{% block title %}Advertise - {{ site['title'] }}{% endblock %}
+
+{% block content %}
+<div style="width:35em; padding:10px;">
+    <h2>Advertise with {{ site['title'] }}</h2>
+    <p>
+    Have a recruiting event, school event, birthday wish, date
+    invitation, or other message you'd like to promote on {{ site['title']
+    }}? For $5 a day, you can promote your event at the top of the email.
+    </p>
+    <br><p>
+    To purchase advertising space, please visit the form below, and
+    be sure to <a href="mailto:ads@{{site['base_url']}}">email me</a>
+    with your ad's content, as well as the days that you would like
+    to run the advertisement. For more information, please contact <a
+    href="mailto:ads@{{ site['base_url'] }}">ads@{{ site['base_url']
+    }}</a>.
+    </p>
+
+    <div class="product">
+        <h3>Select the number of days you would like to advertise:</h3>
+            <input value="Banner Advertisement" class="product-title"
+type="hidden"><select class="product-attr-custom"><option
+selected="selected" googlecart-set-product-price="5.00" value="1 Day">1
+Day - $5.00</option><option googlecart-set-product-price="10.00"
+value="2 Days">2 Days - $10.00</option><option
+googlecart-set-product-price="15.00" value="3 Days">3 Days -
+$15.00</option><option googlecart-set-product-price="20.00"
+value="4 Days">4 Days - $20.00</option><option
+googlecart-set-product-price="25.00" value="5 Days">5 Days -
+$25.00</option></select><input value="5.00" class="product-price"
+type="hidden"><div title="Add to cart" role="button" tabindex="0"
+class="googlecart-add-button"></div></div>
+
+<script id='googlecart-script' type='text/javascript'
+src='https://checkout.google.com/seller/gsc/v2_2/cart.js?mid=86377870537
+1545' integration='jscart-wizard' post-cart-to-sandbox='false'
+currency='USD' productWeightUnits='LB'></script>
+
+    <h3>Advertising Policy</h3>
+
+    Advertisements should contain no more than 400 characters, and use
+    proper capitalization. Advertisements can contain a 70px by 70px image
+    to run alongside the ad.<br><br>
+
+    The editors also reserve the right to refuse any advertisement for
+    any reason; that said, we'll probably accept your ad. If we refuse
+    or modify an advertisement, we'll provide an explanation of why it
+    was rejected. As parents are subscribed to {{ site['title'] }},
+    please do not include anything in your advertisement that you would
+    not want your mother to see.<br><br>
+
+    <b>First Come, First Serve</b><br>
+
+    Historically, at most one person has purchased ad space on a given
+    day. However, sometimes more than one person or club wants to purchase
+    advertising space. If more than one person purchases an advertisement on
+    the same day, the person who pays first will be given the first slot,
+    and the second person will be given the second slot. No more than three
+    advertisements will run on a given day.
+
+    <h3>Discounts</h3>
+
+    Some on-campus clubs have asked about discount pricing for
+    advertisements. While {{ site['title'] }} has nothing against
+    charity or other organizations, we believe that everyone who
+    purchases an ad should pay the same price, to be consistent, and
+    fair.
+
+    <h3>Alternate Forms of Payment</h3>
+
+    For customers who wish to remain anonymous, you can also pay by sending
+    <a href="http://www.weusecoins.com/">Bitcoins</a> to our address,
+    <pre>1Dk29yW1HsNQLKGokT2qCqNXr7vCLgKZXd</pre> 
+
+    At the moment, we do not accept any other currencies.
+</div>
+
+{% endblock %}

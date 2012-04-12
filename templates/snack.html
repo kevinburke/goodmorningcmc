@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+{% block title %}What's For Snack - {{ site['title'] }}{% endblock %}
+{% block fbtitle %}
+  <meta property="og:title" content="{{ site['og_title'] }}" />
+  <meta property="og:type" content="article">
+  <meta property="og:name" content="{{ site['title'] }}" />
+  <meta property="og:url" content="{{ site['og_url']|safe }}" />
+  <meta property="og:description" content="{{ site['og_description'] }}" />
+  <meta property="og:image" content="http://{{ site['base_url'] }}{{ url_for('static', filename=site['og_image']) }}" />
+
+{% endblock %}
+{% block content %}
+<div id="snack" style="min-height:400px; padding-left:20px; width:450px; float:left; padding-right:20px;">
+    <h1>What's For Snack?</h1>
+    <div class="text">
+        Sign up below to get a text message in your inbox at 10:15 every night telling you what's on the menu for Snack. It's that easy.<br><br>
+        <!--facebook code-->
+        <div id="phone_facebook" style="display:none;">
+            <h3>Subscribed! You should share this with your friends on Facebook.</h3>
+            <fb:like show_faces="true" width="450" font="arial"></fb:like>
+            <bR>
+            <h3>Are you subscribed to <a href="/">Good Morning CMC?</a></h3>
+            Good Morning CMC is a daily email containing campus events, news, sports scores, dining hall menus and other useful information you need to start your day. You should subscribe <a href="/">here</a>.
+        </div><!--end phone_facebook -->
+    </div><!-- end text -->
+    <div id="submitting" style="display:none;">Sending request...</div>
+    <div id="phone_slideup" class="text">
+        <label>Enter your phone number:</label>
+        <form id="snack_input" style="padding-bottom:20px;">
+            <input id="snack_phoneno" type="text" value="(909) 621-8000">
+            <input type="submit" value="Submit" id="phone_submit" />
+        </form>
+        <div style="width:30em; margin:20px 0px;">
+            <h2>Support Snack SMS</h2>
+            It costs approximately $2 per night to send SMS messages to everyone. This isn't much, but adds up over the course of a semester. Your donation helps defray the costs of sending text messages every night.
+            <form action="https://checkout.google.com/api/checkout/v2/checkoutForm/Merchant/863778705371545" id="BB_BuyButtonForm" method="post" name="BB_BuyButtonForm" target="_top">
+                <input name="item_name_1" type="hidden" value="What&amp;#39;s For Snack - SMS Donation"/>
+                <input name="item_description_1" type="hidden" value="Your donation helps defray the costs of running What&amp;#39;s For Snack. Thanks!"/>
+                <input name="item_quantity_1" type="hidden" value="1"/>
+                <input name="item_price_1" type="hidden" value="5.0"/>
+                <input name="item_currency_1" type="hidden" value="USD"/>
+                <input name="_charset_" type="hidden" value="utf-8"/>
+                <input alt="" src="https://checkout.google.com/buttons/buy.gif?merchant_id=863778705371545&amp;w=117&amp;h=48&amp;style=white&amp;variant=text&amp;loc=en_US" type="image"/>
+            </form>
+        </div>
+        <div style="width:30em;">
+           <h4>Are you going to charge me crazy amounts of money?</h4>
+No - it costs the same as a standard text message, and you'll get a total of 4 texts per week.<br><br>
+
+            <h4>I'm worried you're going to send spam to my phone number.</h4>
+I promise not to. 
+        
+        </div><!-- end lambda div -->
+    </div><!-- end phone_slideup -->
+</div><!-- end snack -->
+<div class="rightimg" style="float:left; width:300px;">
+    <img src="{{ url_for('static', filename='taquitos.jpg') }}">
+</div><!-- end rightimg -->
+{% endblock %}

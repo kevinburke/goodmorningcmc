@@ -1,0 +1,4 @@
+# valid entries are lunch: or dinner:
+# text describing speaker in single quotes, no preceding hyphen.
+dinner:
+    "There are no more Ath Speakers for the remainder of this semester."

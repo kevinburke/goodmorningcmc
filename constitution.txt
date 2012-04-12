@@ -1,0 +1,106 @@
+Good Morning 5C Club Constitution
+
+Article 1
+Name: Good Morning 5C
+
+Article 2
+Purpose: The purpose of Good Morning 5C is to lobby the 5C
+schools for an event notification and calendaring system that students
+actually use. We categorically reject bad design, obscure URL's, PDF
+attachments, and the caps lock key. Until such time as the 5C schools
+implement a suitable event notification and calendaring system, we
+will provide a daily email service to 5C students containing a summary
+of everything happening on campus on the day of the email. Neither
+snow, nor rain, nor heat, nor gloom of night, nor catastrophic hardware
+failure will stay our couriers from the completion of their appointed
+email delivery.
+
+Article 3
+Membership Requirements:
+
+    Section 1
+    Limitations: Membership is unlimited, although in
+    practice, a membership would be of limited use to someone who is not
+    a 5C student, faculty member, or staff member.
+
+    Section 2
+    Types of Membership: There are two types of membership:
+    subscribers and executives.
+
+    To become a subscriber, simply submit your email address online at
+http://goodmorning{nameof5cschool}.com.
+
+    To become an executive, fork the Mercurial repository at
+http://bitbucket.org/kevinburke/goodmorning5c, add your name to the
+members.txt file, and submit a pull request.
+
+    To remove yourself from the list of executives, fork the Mercurial
+repository at http://bitbucket.org/kevinburke/goodmorning5c, remove your
+name from the members.txt file, and submit a pull request.
+
+Article 4 Officers:
+
+    Section 1
+    Titles: Titles are overrated. Good Morning 5C can have as
+    many executives as it likes.
+
+    Section 2
+    Terms of Office: Good Morning 5C welcomes contributions from its
+    executives for as long as they are willing to contribute to the
+    project.
+
+    Section 3
+    Duties of Executives: Executives must send out a daily
+    email to all subscribers every day that school is in session.
+    Executives are responsible for maintaining the website, being
+    responsive to the desires of the community, and for raising funds
+    each fiscal year.
+
+    Section 4
+    Seniority: The executive with the largest number of
+    commits to the Mercurial repository will have seniority, in case of
+    a dispute.
+
+    Section 5
+    Admin rights: Administration rights to the Mercurial
+    repository can be granted to new executives if 2/3rds of the
+    existing executives vote to approve it.
+
+Article 5 Elections
+
+    Section 1
+    If club-wide elections have to be held for any reason,
+    each executive will receive five thousand votes, and each subscriber
+    will receive one.
+
+Article 6
+Meetings: Good Morning 5C will not have regular meetings
+unless there is urgent business to discuss.
+
+Article 7
+Committees: Good Morning 5C does not have committees.
+
+Article 8
+Dues: Good Morning 5C welcomes donations from subscribers, but
+does not collect dues.
+
+Article 9
+Amendments: Amendments to the Constitution require a 50% + 1
+Amajority of executive votes. Rewrites or deletions require a 2/3rds
+Amajority of executive votes.
+
+CURRENT CLUB MEMBERS:
+
+Subscribers: As of April 8, 2011, there are 509 subscribers at CMC and
+283 subscribers at Pomona. The majority of these members read the email
+every morning. A list can be provided upon request.
+
+Executives:
+Kevin Burke
+Orlan Davies
+Ana Kakkar
+
+BRIEF DESCRIPTION:
+
+Good Morning 5C is a daily email service giving students everything they
+need to know to start their day.

@@ -1,0 +1,16 @@
+<h3>Important Links</h3>
+           <a href="https://my.pomona.edu/ics/Academics/Academics_Homepage.jnz?portlet=Faculty_Profiles_and_Expert_Guide">Faculty Phone Numbers and Emails
+           </a><br><br>
+           <a href="http://www.pomona.edu/administration/registrar/calendars/academic-calendar.aspx">Academic Calendar</a><br><br>
+
+           <a href="http://www.cuc.claremont.edu/campussafety/">Campus Police</a>
+           <br><br>
+
+           <a href="http://www.pomona.edu/administration/financial-aid/index.aspx">Financial Aid</a><br /><br />
+           <a href="http://www.pomona.edu/alumni/">Pomona Alumni Association</a> and <a href="http://www.pomona.edu/administration/career-development/students/resources/sagehen-career-connection.aspx">Alumni database for students</a><br><br>
+
+           <a href="https://my.pomona.edu/ics/Portal_Homepage.jnz?portlet=Claremont_Undergraduate_Course_Schedule&screen=Advanced+Course+Search&screenType=next">Course Catalog</a><br><br>
+
+           <a href="http://www.cuc.claremont.edu/maps/colleges_map_key.pdf">Campus Map</a><br><br>
+
+           <a href="http://www.cuc.claremont.edu/campussafety/parkinginfo.asp">Parking Information</a><br><br>

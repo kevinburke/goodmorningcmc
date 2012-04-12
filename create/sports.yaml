@@ -1,0 +1,14 @@
+# valid entries are "cms" or "pp"
+# then a list of days, "Friday" "Today" etc.
+# then a list of events on each day
+# use double quotes to surround link entries, because single quotes need to be
+# escaped 
+# example:
+
+cms:
+    - "Women's Lacrosse defeated Redlands 19-11"
+    - "Track and Field Decathlon/ Heptathlon is at 2pm"
+    - "Men's Golf NCAA Championships @Greensboro, NC"
+    
+pp:
+    - "There are no games today"

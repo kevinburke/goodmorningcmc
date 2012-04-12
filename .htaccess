@@ -1,0 +1,11 @@
+<IfModule mod_headers.c>
+    # 1 month expiration
+    <FilesMatch "\.(ico|pdf|jpg|jpeg|png|gif|txt)$">
+    Header set Cache-Control "max-age=2592000, public"
+    </FilesMatch>
+    # 1 week expiration
+    <FilesMatch "\.(js|css)$">
+    Header set Cache-Control "max-age=608400, public"
+    </FilesMatch>
+</IfModule>
+

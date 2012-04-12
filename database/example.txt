@@ -1,0 +1,2 @@
+# sample sql query
+a.execute("insert into weather(image_url, high, low, condition) values(?,?,?,?)",  ("http://google.com/ig/", "80", "57", "sunny"))

@@ -1,0 +1,163 @@
+{% extends "layout.html" %}
+{% block title %}{{ site['title'] }} - {{ site['tagline'] }}{% endblock %}
+{% block fbtitle %}
+<meta property="og:title" content="{{ site['title'] }} - {{ site['tagline'] }}" />
+  <meta property="og:name" content="{{ site['title'] }}" />
+  <meta property="og:url" content="http://{{ site['base_url'] }}" />
+  <meta property="og:description" content="{{ site['description'] }}" />
+  <meta property="og:image" content="http://{{site['base_url']}}{{ url_for('static', filename=site['bigimage']) }}" />
+{% endblock %}
+
+{% block content %}
+    <div class="image">
+        <img src="{{ url_for('static', filename=site['bigimage']) }}" width="460" height="270" alt="{{ site['bigimagealt']}}" title="{{ site['bigimagetitle']}}"> 
+    </div>
+
+    <div class="calltoaction">
+        <h1>{{ site['calltoaction_title'] }}</h1>
+
+        <div class="text">{{ site['calltoaction_text'] }}</div>
+
+        {% include 'subscribe.html' %}
+
+        <br />
+    </div>
+
+    <iframe id="thefacebook" src='{{ site['fb_src']|safe }}' scrolling="no" frameborder="0"  allowTransparency="true"></iframe>
+
+
+    <div class="archives">
+        <h2 style="padding-top:5px;">Archives</h2>
+
+        {#todo: implement "add" page, grab these from db and display 
+        
+        add page has month, day, day of week, post
+        
+        #}
+        <b>April 11 - April 15</b><br>
+        <ul>
+            <li><a href="/static/{{ site['name'] }}/april/11">Monday, April 11</a></li>
+            <!--<li><a href="/static/{{ site['name'] }}/april/12">Tuesday, April 12</a></li>-->
+            <!--<li><a href="/static/{{ site['name'] }}/april/13">Wednesday, April 13</a></li>-->
+            <!--<li><a href="/static/{{ site['name'] }}/april/14">Thursday, April 14</a></li>-->
+            <!--<li><a href="/static/{{ site['name'] }}/april/15">Friday, April 15</a></li>-->
+        </ul><br><Br>
+        <b>April 4 - April 8</b><br>
+        <ul>
+            <li><a href="/static/{{ site['name'] }}/april/4">Monday, April 4</a></li>
+            <li><a href="/static/{{ site['name'] }}/april/5">Tuesday, April 5</a></li>
+            <li><a href="/static/{{ site['name'] }}/april/6">Wednesday, April 6</a></li>
+            <li><a href="/static/{{ site['name'] }}/april/7">Thursday, April 7</a></li>
+            <li><a href="/static/{{ site['name'] }}/april/8">Friday, April 8</a></li>
+        </ul><br><Br>
+        <b>March 28 - April 1</b><br>
+        <ul>
+            <li><a href="/static/{{ site['name'] }}/march/28">Monday, March 28</a></li>
+            <li><a href="/static/{{ site['name'] }}/march/29">Tuesday, March 29</a></li>
+            <li><a href="/static/{{ site['name'] }}/march/30">Wednesday, March 30</a></li>
+            <li><a href="/static/{{ site['name'] }}/march/31">Thursday, March 31</a></li>
+            <li><a href="/static/{{ site['name'] }}/april/1">Friday, April 1</a></li>
+        </ul><br><Br>
+        <b>March 21 - March 25</b><br>
+        <ul>
+            <li><a href="/static/{{ site['name'] }}/march/21">Monday, March 21</a></li>
+            <li><a href="/static/{{ site['name'] }}/march/22">Tuesday, March 22</a></li>
+            <li><a href="/static/{{ site['name'] }}/march/23">Wednesday, March 23</a></li>
+            <li><a href="/static/{{ site['name'] }}/march/24">Thursday, March 24</a></li>
+            <li><a href="/static/{{ site['name'] }}/march/25">Friday, March 25</a></li>
+        </ul><br><Br>
+        <b>March 14 - March 18</b><br>
+        <ul>
+            <li><a href="/static/{{ site['name'] }}/march/14">Monday, March 14</a></li>
+            <li><a href="/static/{{ site['name'] }}/march/15">Tuesday, March 15</a></li>
+            <li><a href="/static/{{ site['name'] }}/march/16">Wednesday, March 16</a></li>
+            <li><a href="/static/{{ site['name'] }}/march/17">Thursday, March 17</a></li>
+            <li><a href="/static/{{ site['name'] }}/march/18">Friday, March 18</a></li>
+        </ul><br><Br>
+        <b>March 7 - March 11</b><br>
+        <ul>
+            <li><a href="/static/{{ site['name'] }}/march/7">Monday, March 7</a></li>
+            <li><a href="/static/{{ site['name'] }}/march/8">Tuesday, March 8</a></li>
+            <li><a href="/static/{{ site['name'] }}/march/9">Wednesday, March 9</a></li>
+            <li><a href="/static/{{ site['name'] }}/march/10">Thursday, March 10</a></li>
+            <li><a href="/static/{{ site['name'] }}/march/11">Friday, March 11</a></li>
+        </ul><br><Br>
+        <b>February 28 - March 4</b><br>
+        <ul>
+            <li><a href="/static/{{ site['name'] }}/february/28">Monday, February 28</a></li>
+            <li><a href="/static/{{ site['name'] }}/march/1">Tuesday, March 1</a></li>
+            <li><a href="/static/{{ site['name'] }}/march/2">Wednesday, March 2</a></li>
+            <li><a href="/static/{{ site['name'] }}/march/3">Thursday, March 3</a></li>
+            <li><a href="/static/{{ site['name'] }}/march/4">Friday, March 4</a></li>
+        </ul><br><Br>
+        <b>February 21 - February 25</b><br>
+        <ul>
+            <li><a href="/static/{{ site['name'] }}/february/21">Monday, February 21</a></li>
+            <li><a href="/static/{{ site['name'] }}/february/22">Tuesday, February 22</a></li>
+            <li><a href="/static/{{ site['name'] }}/february/23">Wednesday, February 23</a></li>
+            <li><a href="/static/{{ site['name'] }}/february/24">Thursday, February 24</a></li>
+            <li><a href="/static/{{ site['name'] }}/february/25">Friday, February 25</a></li>
+        </ul><br><Br>
+        <b>February 14 - February 18</b><br>
+        <ul>
+            <li><a href="/static/{{ site['name'] }}/february/14">Monday, February 14</a></li>
+            <li><a href="/static/{{ site['name'] }}/february/15">Tuesday, February 15</a></li>
+            <li><a href="/static/{{ site['name'] }}/february/16">Wednesday, February 16</a></li>
+            <li><a href="/static/{{ site['name'] }}/february/17">Thursday, February 17</a></li>
+            <li><a href="/static/{{ site['name'] }}/february/18">Friday, February 18</a></li>
+        </ul><br><Br>
+        <b>February 7 - February 11</b><br>
+        <ul>
+            <li><a href="/static/{{ site['name'] }}/february/7">Monday, February 7</a></li>
+            <li><a href="/static/{{ site['name'] }}/february/9">Wednesday, February 9</a></li>
+            <li><a href="/static/{{ site['name'] }}/february/10">Thursday, February 10</a></li>
+            <li><a href="/static/{{ site['name'] }}/february/11">Friday, February 11</a></li>
+        </ul><br><Br>
+        <b>January 31 - February 4</b><br>
+        <ul>
+            <li><a href="/static/{{ site['name'] }}/january/31">Monday, January 31</a></li>
+            <li><a href="/static/{{ site['name'] }}/february/1">Tuesday, February 1</a></li>
+            <li><a href="/static/{{ site['name'] }}/february/2">Wednesday, February 2</a></li>
+            <li><a href="/static/{{ site['name'] }}/february/3">Thursday, February 3</a></li>
+            <li><a href="/static/{{ site['name'] }}/february/4">Friday, February 4</a></li>
+        </ul><br><Br>
+        <b>January 24 - January 28</b><br>
+        <ul>
+            <li><a href="/static/{{ site['name'] }}/january/24">Monday, January 24</a></li>
+            <li><a href="/static/{{ site['name'] }}/january/25">Tuesday, January 25</a></li>
+            <li><a href="/static/{{ site['name'] }}/january/26">Wednesday, January 26</a></li>
+            <li><a href="/static/{{ site['name'] }}/january/27">Thursday, January 27</a></li>
+            <li><a href="/static/{{ site['name'] }}/january/28">Friday, January 28</a></li>
+        </ul><br><Br>
+
+        <b>January 18 - January 21</b><br>
+        <ul>
+            <li><a href="/static/{{ site['name'] }}/january/18">Tuesday, January 18</a></li>
+            <li><a href="/static/{{ site['name'] }}/january/19">Wednesday, January 19</a></li>
+            <li><a href="/static/{{ site['name'] }}/january/20">Thursday, January 20</a></li>
+            <li><a href="/static/{{ site['name'] }}/january/21">Friday, January 21</a></li>
+        </ul>
+
+    </div><!-- .archives -->
+
+    <div class="todaysemail">
+        <script>
+            jQuery(document).ready(function(){
+                jQuery("#weather_image_url").attr("src", "{{ weather['image_url'] }}");
+                jQuery("#weather_high").attr("src", "{{ weather['high'] }}");
+                jQuery("#weather_low").text("{{ weather['low'] }}");
+                jQuery("#weather_cond").text("{{ weather['condition'] }}");
+            });
+        </script>
+        {#needs to be parsed in same way as archives #}
+        <h2>Today's Email - {{ site['the_date'] }}</h2>
+
+        {# latest is latest email #}
+        {# XXX need logic here to filter by site otherwise all sites will show
+        same latest.html. do like an if site = "cmc" include latest_cmc.html #}
+        {% include 'latest.html' %}
+
+    </div>
+    <div style="clear:both;"></div>
+</div><!-- #main -->
+{% endblock %}

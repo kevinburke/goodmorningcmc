@@ -1,0 +1,42 @@
+# you need to build apache from scratch each time. from the webfaction box, go
+cd ~/src/apache/httpd-2.17
+#the files are in there. then type:
+# first clean the install directory
+make clean
+
+# then configure
+
+./configure \
+--prefix=/home/kevinburke/webapps/(site_name)/apache \ #specify where to install apache
+--enable-deflate #send files as gzipped - smaller file means page loads faster
+--enable-speling #correct spelling errors in user lookup
+--enable-headers #set special http headers
+--enable-cache --enable-mem-cache
+--enable-so #allow later installation of modules
+--enable-rewrite
+--with-mpm=worker
+--with-port=PORT
+
+make
+
+make install
+
+# then navigate to ~/webapps/site-name, type:
+
+apache/bin/apachectl -k restart
+
+# then check the URL, it should be up. if not, try checking
+# apache/logs/error_log and apache/logs/access_log. type
+
+crontab -e
+
+# and copy paste the other webapps ones, they just try to restart the server
+# every 15 minutes in case apache dies.
+#
+# Mod_wsgi:
+make clean
+./configure --prefix=$HOME/webapps/(site_name)/apache/modules \
+--with-apxs=$HOME/webapps/(site_name)/apache/bin/apxs \
+--with-python=$HOME/bin/python
+make
+make install

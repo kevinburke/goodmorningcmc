@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block title %}Good Morning CMC Checkout{% endblock %}
+{% block content %}
+<div id="store" style="min-height:500px; width:600px;">
+
+    Hi there,<br>
+    Thanks for advertising with {{ site['title'] }}. I appreciate your support. Please make your selection using the options below. Also, be sure to <a href="mailto:kevin@goodmorningcmc.com">email me</a> with the text of your message, any links to other websites, and the dates you would like to have the email run. Feel free to include a photo, with maximum width 500 pixels and maximum height 70 pixels.<br><br>
+    Best,<br>
+    Kevin<br><br>
+    <h3>Select the number of days you would like to advertise:</a>
+<div class="product"><input value="Banner Advertisement" class="product-title" type="hidden"><select class="product-attr-custom"><option selected="selected" googlecart-set-product-price="5.00" value="1 Day">1 Day - $5.00</option><option googlecart-set-product-price="10.00" value="2 Days">2 Days - $10.00</option><option googlecart-set-product-price="15.00" value="3 Days">3 Days - $15.00</option><option googlecart-set-product-price="20.00" value="4 Days">4 Days - $20.00</option><option googlecart-set-product-price="25.00" value="5 Days">5 Days - $25.00</option></select><input value="5.00" class="product-price" type="hidden"><div title="Add to cart" role="button" tabindex="0" class="googlecart-add-button"></div></div>
+</div>
+
+
+<script  id='googlecart-script' type='text/javascript' src='https://checkout.google.com/seller/gsc/v2_2/cart.js?mid=863778705371545' integration='jscart-wizard' post-cart-to-sandbox='false' currency='USD' productWeightUnits='LB'></script>
+{% endblock %}

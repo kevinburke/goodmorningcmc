@@ -1,0 +1,35 @@
+Metadata-Version: 1.0
+Name: twilio
+Version: 2.0.10
+Summary: Twilio API client and TwiML generator
+Home-page: http://github.com/twilio/twilio-python/
+Author: Twilio
+Author-email: help@twilio.com
+License: UNKNOWN
+Description:     Python Twilio Helper Library
+            ----------------------------
+        
+            DESCRIPTION
+            The Twilio REST SDK simplifies the process of makes calls to the Twilio REST.
+            The Twilio REST API lets to you initiate outgoing calls, list previous call,
+            and much more.  See http://www.twilio.com/docs for more information.
+        
+            USAGE
+            To use the Twilio library, just 'import twilio' in the your current py
+            file. As shown in example-rest.py, you will need to specify the ACCOUNT_ID
+            and ACCOUNT_TOKEN given to you by Twilio before you can make REST
+            requests. In addition, you will need to choose a 'To' and 'From' before
+            making outgoing calls. See http://www.twilio.com/docs for more
+            information.
+        
+             LICENSE The Twilio Python Helper Library is distributed under the MIT
+            License 
+Keywords: twilio,twiml
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Communications :: Telephony

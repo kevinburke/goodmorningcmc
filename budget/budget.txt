@@ -1,0 +1,44 @@
+Expenses
+Hosting costs:
+Currently hosting costs $8.50 per month, for a total of $102 per year.
+
+Domain name registration:
+We need to purchase goodmorninghmc.com and goodmorningpitzer.com. This will cost $9 per domain.
+
+Email provider:
+Next year, we are going to overrun the sending limit per month. Mailchimp charges $30 per month for lists of our size (works out to about $1.50 per day, to deliver 1000+ emails). Over 9 months of school, this will cost $270.
+
+Snack SMS:
+SMS costs 2 cents per user per text message. Multiplied by ~30 weeks, and 4 days of snack per week, this works out to $2.40 per user per year. Currently we have 100 users; assuming the list doubles as we add Pomona and other schools, this works out to $480 per year.
+
+Stipend:
+It takes about 1 hour to compose and schedule the email every night. I am asking for a year-long stipend of $500 for both members of Good Morning 5C. This works out to an hourly rate of about $6.50.
+
+Scalability:
+Fortunately, as we gain more subscribers to the daily email, our expenses don't rise much. Mailchimp will charge $30 per month up until we reach 2500 subscribers. If more users sign up for Snack SMS, our expenses will rise $2.40 per year per user. The time to compose the email, and thus the stipend, are roughly constant in the number of users who subscribe.
+
+Summary of Expenses
+
+Hosting Costs               102
+Domain Name Registration     18
+Email Provider              270
+Snack SMS                   480
+Stipend                    1000
+-------------------------------
+Total                      1870
+
+Revenue
+
+Good Morning 5C charges for advertising space at the top of the email. The cost is $5 per day to advertise. Assuming 2 days of advertising per week (our current rate), we project revenue of $10 per week or $300.
+
+Summary of Revenue
+
+Advertising             300
+Total                   300
+
+Budget
+
+Total Expenses         1870
+Total Revenue           300
+---------------------------
+Net Profit (Loss)     (1570)

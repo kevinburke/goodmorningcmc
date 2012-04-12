@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block title %}{{ site['title'] }} Personals{% endblock %}
+{% block fbtitle %}
+  <meta property="og:title" content="{{ site['og_title'] }}" />
+  <meta property="og:type" content="article">
+  <meta property="og:name" content="{{ site['title'] }}" />
+  <meta property="og:url" content="{{ site['og_url']|safe }}" />
+  <meta property="og:description" content="{{ site['og_description'] }}" />
+  <meta property="og:image" content="http://{{ site['base_url'] }}{{ url_for('static', filename=site['og_image']) }}" />
+{% endblock %}
+{% block content %}
+<div id="personals" style="float:left; width:450px;">
+    <h1>{{site['title']}} Personals</h1>
+
+    <!-- this needs to be pomona only, will change soon -->
+    <iframe src="https://spreadsheets.google.com/embeddedform?formkey=dElUa0x2NXlobk00WkxiaDVpczZBUkE6MQ" width="350" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+    <h3>Tell your friends to sign up!</h3>
+    <fb:like show_faces="true" width="450" font="arial"></fb:like>
+
+    <h3>Are you subscribed to <a href="/">{{site['title']}}?</a></h3>
+    {{site['title']}} is a daily email containing campus events, news, sports scores, dining hall menus and other useful information you need to start your day. You should subscribe <a href="/">here</a>.
+
+</div>
+<div class="rightimg" style="float:left; width:300px;">
+    <img src="{{ url_for('static', filename='firstdate.png') }}" />
+</div>
+{% endblock %} 
