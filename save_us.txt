@@ -1,22 +1,22 @@
 Hi there,
      I used to run Good Morning CMC but I graduated last year. I'm writing
-because this project is dying and I'd like to offer you the opportunity to save
-it.
+because this project needs some help and I'd like to offer you the opportunity
+to help save it.
 
 This was a labor of love. It takes a lot of work to write the email every day.
-That said, doing this every day is the main reason I have an engineering job at
-an internet startup right now, more so than CS classes. It's likely you will
-learn a lot from maintaining this project as well.
+That said, the main reason I have an engineering job at an internet startup
+right now is because of the things I learned from working on this project, more
+so than CS classes. It's likely you will learn a lot from maintaining this
+project as well.
 
 I am a pretty bad programmer but I was a *really* bad programmer when I wrote
-most of this. So there's a bunch of stuff that you could work on to make it
-better, like actually doing marketing and advertising - I made about $300 in
-one semester without trying hard to advertise to people and I'm sure you could
-double or triple that by getting recruiters to advertise, for example. If you'd
-like more examples of ways to contribute, shoot me an email.
+most of this. So there's a bunch of stuff that could use work, like actually
+doing marketing and advertising - I made about $300 in one semester without
+trying hard to advertise to people and I'm sure you could double or triple that
+by getting recruiters to advertise, for example. If you'd like more examples of
+ways to contribute, shoot me an email.
 
-I fully expect this project will die. That said, if you're interested in taking
-it on, I promise to do the following:
+If you're interested in helping out, I promise to do the following:
 
 - I will do my best to help you get an internship/full time job at a tech
 company in Silicon Valley, including reviewing your resume, discussing roles
