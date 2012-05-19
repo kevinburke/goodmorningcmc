@@ -1,0 +1,16 @@
+Flask==0.8
+Flask-Mail==0.6.1
+Jinja2==2.6
+PyJWT==0.1.2
+PyYAML==3.10
+Werkzeug==0.8.3
+blinker==1.2
+chardet==1.0.1
+httplib2==0.7.4
+lamson==1.1
+lockfile==0.9.1
+mock==0.8.0
+nose==1.1.2
+python-daemon==1.6
+twilio==3.3.6
+wsgiref==0.1.2

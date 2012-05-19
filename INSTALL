@@ -21,7 +21,10 @@ easy_install pip
 
 # Install flask. Flask is a microframework used to display the pages on the
 # site.
-$ pip install flask
+$ pip install -r requirements.txt
+
+# At this point it should do a whole bunch of installation stuff... should take
+# about 5 minutes.
 
 #make sure flask is installed for your current version of python, to test,
 #open python and try typing `import flask`. There should be no errors when you
