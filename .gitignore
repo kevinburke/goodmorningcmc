@@ -1,2 +1,7 @@
 .hg
 .hgignore
+config/app.cfg
+database/goodmorning.db
+*.pyc
+env
+templates/latest.html
